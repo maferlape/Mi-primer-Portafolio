@@ -503,6 +503,10 @@ footer p{
         font-size: 12px;
     }
 
+    #page-home .mensaje{
+        width: 100%;
+    }
+
     #page-home .portafolio p{
         margin-top: 5px;
     }
