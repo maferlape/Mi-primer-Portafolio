@@ -526,6 +526,11 @@ footer p{
         width: 100%;
     }
 
+    #page-home 
+    form input, form textarea{
+        width: 95%;
+    } 
+
 
     #page-home .contenido-contacto .perfiles{
         width: 100%;
