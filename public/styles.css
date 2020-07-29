@@ -283,7 +283,8 @@ input::-webkit-input-placeholder, form textarea, input{
     font-weight: 400;
     font-size: 12px;
     color: #828282;
-    letter-spacing: 1px;
+    letter-spacing: 0.5px;
+    font-family: 'Mulish', sans-serif;
 }
  
 
@@ -527,9 +528,17 @@ footer p{
     }
 
     #page-home 
-    form input, form textarea{
+    form input, #page-home form textarea{
         width: 90%;
     } 
+
+    #page-home input::-webkit-input-placeholder, form textarea, input{
+        font-weight: 400;
+        font-size: 11px;
+        color: #828282;
+        letter-spacing: 1px;
+        font-family: 'Mulish', sans-serif;
+    }
 
 
     #page-home .contenido-contacto .perfiles{
